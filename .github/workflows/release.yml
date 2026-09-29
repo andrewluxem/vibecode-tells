@@ -1,0 +1,15 @@
+name: release
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: zip -r vibecode-tells.skill vibecode-tells -x "*/__pycache__/*"
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: vibecode-tells.skill
