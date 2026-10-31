@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-labelledby="t d">
 <title id="t">vibecode-tells</title>
-<desc id="d">Three panels. 1, default output: the repo's test fixture vibecoded.html, a page with a gradient headline reading "It's not a to-do list. It's a second brain.", a blurred orb and three feature cards, marked with flags 1, 15, 22 and 6. 2, real scan.py output on that fixture: 29 of 30 tells flagged, with the four marked tells listed. 3, the repo's clean.html fixture, a plain serif headline with Terms of Service and Privacy Policy links; scan.py reports no mechanical tells found.</desc>
+<desc id="d">Three panels. 1, default output: the repo's test fixture vibecoded.html, a page with a gradient headline reading "It's not a to-do list. It's a second brain.", a blurred orb and three feature cards, marked with flags 1, 15, 22 and 6. 2, real scan.py output on that fixture: 29 of 30 tells flagged, with the four marked tells listed. 3, the repo's decided.html fixture, the same to-do page with each tell decided: a plain serif headline reading "A to-do list that fits on one screen.", a short task list with checkboxes, and Terms of Service and Privacy Policy links; scan.py reports no mechanical tells found.</desc>
 <style>
 .serif{font-family:Georgia,"Times New Roman",serif}
 .sans{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
@@ -21,6 +21,7 @@
 .rg{animation:rg 12s infinite}
 .rh{animation:rh 12s infinite}
 .ri{animation:ri 12s infinite}
+.rj{animation:rj 12s infinite}
 .rk{animation:rk 12s infinite}
 @keyframes h1{0%,44%{opacity:1}48%,96%{opacity:0}100%{opacity:1}}
 @keyframes h2{0%,7%{opacity:0}10%,44%{opacity:1}48%,100%{opacity:0}}
@@ -31,7 +32,8 @@
 @keyframes rf{0%,32%{opacity:0}34%,96%{opacity:1}100%{opacity:0}}
 @keyframes rg{0%,39%{opacity:0}41%,96%{opacity:1}100%{opacity:0}}
 @keyframes rh{0%,51%{opacity:0}53%,96%{opacity:1}100%{opacity:0}}
-@keyframes ri{0%,57%{opacity:0}59%,96%{opacity:1}100%{opacity:0}}
+@keyframes ri{0%,55%{opacity:0}57%,96%{opacity:1}100%{opacity:0}}
+@keyframes rj{0%,59%{opacity:0}61%,96%{opacity:1}100%{opacity:0}}
 @keyframes rk{0%,64%{opacity:0}66%,96%{opacity:1}100%{opacity:0}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}}
 </style>
@@ -77,10 +79,11 @@
 <text x="626" y="88" class="sans lab" fill="#93ad8c">3 · DECIDED ON PURPOSE</text>
 <rect x="626" y="98" width="242" height="152" rx="3" fill="#1b1e21" stroke="#2e3237"/>
 <rect class="hl h3" x="626" y="98" width="242" height="152" rx="3" stroke="#93ad8c"/>
-<text x="638" y="115" class="mono" font-size="10" fill="#8b9096">tests/fixtures/clean.html</text>
+<text x="638" y="115" class="mono" font-size="10" fill="#8b9096">tests/fixtures/decided.html</text>
 <line x1="627" y1="123" x2="867" y2="123" stroke="#2e3237"/>
-<g class="rh serif" font-size="13.5" fill="#e4dfd4"><text x="638" y="150">Bankroll math for the pass line,</text><text x="638" y="168">worked out on real rolls.</text></g>
-<g class="ri"><line x1="627" y1="222" x2="867" y2="222" stroke="#2e3237"/><g class="sans" font-size="10" fill="#93ad8c"><text x="638" y="240">Terms of Service</text><text x="740" y="240">Privacy Policy</text></g><g stroke="#93ad8c"><line x1="638" y1="242.5" x2="712" y2="242.5"/><line x1="740" y1="242.5" x2="802" y2="242.5"/></g></g>
+<g class="rh serif" font-size="15" fill="#e4dfd4"><text x="640" y="147">A to-do list that</text><text x="640" y="165">fits on one screen.</text></g>
+<g class="ri"><g stroke="#2e3237"><line x1="640" y1="191.5" x2="856" y2="191.5"/><line x1="640" y1="207.5" x2="856" y2="207.5"/><line x1="640" y1="223.5" x2="856" y2="223.5"/></g><rect x="640.5" y="178.5" width="8" height="8" rx="1.5" fill="#93ad8c"/><path d="M642.4 182.6l1.8 1.8 3.2-3.6" fill="none" stroke="#1b1e21" stroke-width="1.4"/><g fill="#2a2d31" stroke="#7d838a"><rect x="640.5" y="194.5" width="8" height="8" rx="1.5"/><rect x="640.5" y="210.5" width="8" height="8" rx="1.5"/></g><g class="serif" font-size="10" fill="#e4dfd4"><text x="654" y="186">Renew the car registration</text><text x="654" y="202">Book the dentist</text><text x="654" y="218">Return the library books</text></g></g>
+<g class="rj serif" font-size="10" fill="#93ad8c" text-decoration="underline"><text x="640" y="240">Terms of Service</text><text x="719" y="240">Privacy Policy</text></g>
 <text class="rk mono" x="626" y="272" font-size="11" fill="#93ad8c">No mechanical tells found.</text>
 </g>
 </svg>
