@@ -10,7 +10,7 @@ This skill gives Claude (or any agent that reads skill files) a catalog of 30 of
 
 `vibecode-tells/SKILL.md` is the skill itself. It has two modes. Design mode makes the agent settle palette, type, surface treatment, proof, and copy voice before writing markup, then self-review. Review mode audits existing work and returns a verdict plus a table of flagged tells with locations and fixes.
 
-`vibecode-tells/scripts/scan.py` is a dependency-free Python scanner. It mechanically checks 26 of the 30 tells (gradients, Lucide imports, Inter/Geist/Space Grotesk, em dashes, emoji, backdrop blur, radial orbs, large radii, hover transforms, neon and pastel hex values, missing terms or privacy links, async code without skeleton loaders, and more). Fake testimonials, missing product demos, and subtler copy framing still need human or model judgment.
+`vibecode-tells/scripts/scan.py` is a dependency-free Python scanner. It mechanically checks 29 of the 30 tells (gradients, Lucide imports, Inter/Geist/Space Grotesk, em dashes, emoji, backdrop blur, radial orbs, large radii, hover transforms, neon and pastel hex values, missing terms or privacy links, async code without skeleton loaders, and more). Fake testimonials, missing product demos, and subtler copy framing still need human or model judgment.
 
 `tests/` holds fixtures and tests that keep the scanner honest as rules change.
 
