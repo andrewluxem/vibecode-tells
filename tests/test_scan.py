@@ -21,6 +21,10 @@ class ScanTests(unittest.TestCase):
         hits = scan.scan(os.path.join(FIX, "clean.html"))
         self.assertEqual(hits, {}, f"false positives: {sorted(hits)}")
 
+    def test_decided_fixture_flags_nothing(self):
+        hits = scan.scan(os.path.join(FIX, "decided.html"))
+        self.assertEqual(hits, {}, f"false positives: {sorted(hits)}")
+
 
 if __name__ == "__main__":
     unittest.main()
