@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.svg" alt="vibecode-tells: Agent skill + scanner that keeps AI-built websites from looking AI-built" width="100%"></p>
+<p align="center"><img src="docs/banner.svg" alt="vibecode-tells: Agent skill + scanner that keeps AI-built websites from looking AI-built"></p>
 
 # vibecode-tells
 
